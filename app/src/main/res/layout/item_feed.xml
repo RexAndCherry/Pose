@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/feed_card"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="1dp"
+    android:layout_marginRight="1dp"
+    android:layout_marginTop="2dp"
+    android:background="@drawable/bg_card"
+    android:clickable="true"
+
+    android:orientation="vertical"
+    android:visibility="visible">
+
+    <com.program.vjzuo.pose.widget.RatioImageView
+        android:id="@+id/iv_feed"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:scaleType="fitXY" />
+
+
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/iv_feed"
+        android:background="?attr/selectableItemBackground"
+        android:ellipsize="end"
+        android:maxLines="4"
+        android:padding="10dp"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        tools:text="Titfffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffle" />
+
+
+</RelativeLayout>
+

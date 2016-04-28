@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Pose</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="load_all_pose">已经加载全部姿势啦</string>
+    <string name="login_success">登陆姿势完美~</string>
+    <string name="login_failed">登陆姿势不对</string>
+    <string name="mine">我的</string>
+    <string name="my_store">我的收藏</string>
+    <string name="my_gallary">我的相册</string>
+    <string name="others">其他</string>
+    <string name="check_update">检查更新</string>
+    <string name="share_app">分享应用</string>
+    <string name="about">关于</string>
+    <string name="setting">设置</string>
+    <string name="logout">退出登陆</string>
+</resources>

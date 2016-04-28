@@ -1,0 +1,38 @@
+[
+    {
+        "merged": "D:\\Users\\vj.zuo\\Downloads\\Pose\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\umeng_socialize_light_bar_bg_pad.9.png",
+        "source": "D:\\Users\\vj.zuo\\Downloads\\Pose\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\umeng_socialize_light_bar_bg_pad.9.png"
+    },
+    {
+        "merged": "D:\\Users\\vj.zuo\\Downloads\\Pose\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\umeng_socialize_share_pic.png",
+        "source": "D:\\Users\\vj.zuo\\Downloads\\Pose\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\umeng_socialize_share_pic.png"
+    },
+    {
+        "merged": "D:\\Users\\vj.zuo\\Downloads\\Pose\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\umeng_socialize_oauth_check_on.png",
+        "source": "D:\\Users\\vj.zuo\\Downloads\\Pose\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\umeng_socialize_oauth_check_on.png"
+    },
+    {
+        "merged": "D:\\Users\\vj.zuo\\Downloads\\Pose\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\umeng_socialize_oauth_check_off.png",
+        "source": "D:\\Users\\vj.zuo\\Downloads\\Pose\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\umeng_socialize_oauth_check_off.png"
+    },
+    {
+        "merged": "D:\\Users\\vj.zuo\\Downloads\\Pose\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\umeng_socialize_nav_bar_bg_pad.9.png",
+        "source": "D:\\Users\\vj.zuo\\Downloads\\Pose\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\umeng_socialize_nav_bar_bg_pad.9.png"
+    },
+    {
+        "merged": "D:\\Users\\vj.zuo\\Downloads\\Pose\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ic_launcher.png",
+        "source": "D:\\Users\\vj.zuo\\Downloads\\Pose\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\Users\\vj.zuo\\Downloads\\Pose\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\umeng_socialize_share_video.png",
+        "source": "D:\\Users\\vj.zuo\\Downloads\\Pose\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\umeng_socialize_share_video.png"
+    },
+    {
+        "merged": "D:\\Users\\vj.zuo\\Downloads\\Pose\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\umeng_socialize_share_music.png",
+        "source": "D:\\Users\\vj.zuo\\Downloads\\Pose\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\umeng_socialize_share_music.png"
+    },
+    {
+        "merged": "D:\\Users\\vj.zuo\\Downloads\\Pose\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ic_menu_info_details.png",
+        "source": "D:\\Users\\vj.zuo\\Downloads\\Pose\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ic_menu_info_details.png"
+    }
+]
