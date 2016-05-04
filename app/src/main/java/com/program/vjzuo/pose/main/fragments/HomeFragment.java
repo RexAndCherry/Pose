@@ -2,8 +2,11 @@ package com.program.vjzuo.pose.main.fragments;
 
 
 import android.os.Bundle;
+import android.support.annotation.NonNull;
+import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
 import android.support.v4.widget.SwipeRefreshLayout;
+import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.support.v7.widget.StaggeredGridLayoutManager;
 import android.view.LayoutInflater;
@@ -59,10 +62,12 @@ public class HomeFragment extends Fragment implements HomeContract.View {
 
     private void setupRecyclerView() {
         final StaggeredGridLayoutManager layoutManager
-                = new StaggeredGridLayoutManager(2,
+                = new StaggeredGridLayoutManager(1,
                 StaggeredGridLayoutManager.VERTICAL);
+
         mRecyclerView.setLayoutManager(layoutManager);
         mRecyclerView.addOnScrollListener(getOnBottomListener(layoutManager));
+
     }
 
     RecyclerView.OnScrollListener getOnBottomListener(final StaggeredGridLayoutManager layoutManager) {
@@ -72,8 +77,7 @@ public class HomeFragment extends Fragment implements HomeContract.View {
                 int[] lastPos = layoutManager.findLastCompletelyVisibleItemPositions(
                         new int[2]);
                 boolean isBottom =
-                        lastPos[1] >=
-                                mFeedListAdapter.getItemCount()-1 || lastPos[0] >= mFeedListAdapter.getItemCount()-1;
+                        lastPos[0] >= mFeedListAdapter.getItemCount()-1;
                 if (!mSwipeRefreshLayout.isRefreshing() && isBottom) {
                     mPresenter.loadMore();
                 }

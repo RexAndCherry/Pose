@@ -1,38 +1,110 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/feed_card"
+    android:id="@+id/card_view"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:layout_marginLeft="1dp"
-    android:layout_marginRight="1dp"
-    android:layout_marginTop="2dp"
-    android:background="@drawable/bg_card"
-    android:clickable="true"
+    android:layout_gravity="center"
+    android:layout_marginLeft="@dimen/activity_horizontal_margin"
+    android:layout_marginRight="@dimen/activity_horizontal_margin"
+    android:layout_marginTop="@dimen/activity_vertical_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    card_view:cardCornerRadius="8dp">
 
-    android:orientation="vertical"
-    android:visibility="visible">
-
-    <com.program.vjzuo.pose.widget.RatioImageView
-        android:id="@+id/iv_feed"
+    <RelativeLayout
+        android:id="@+id/feed_content"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:adjustViewBounds="true"
-        android:scaleType="fitXY" />
+        android:layout_marginBottom="2dp"
+        android:layout_marginLeft="1dp"
+        android:layout_marginRight="1dp"
+        android:layout_marginTop="2dp"
+        android:clickable="true"
+        android:elevation="30dp"
+        android:orientation="vertical"
+        android:stateListAnimator="@drawable/card_anim"
+        android:visibility="visible">
+
+        <TextView
+            android:id="@+id/tv_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="?attr/selectableItemBackground"
+            android:ellipsize="end"
+            android:maxLines="4"
+            android:padding="10dp"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            tools:text="Titfffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffle" />
+
+        <com.program.vjzuo.pose.widget.RatioImageView
+            android:id="@+id/iv_feed"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_title"
+            android:adjustViewBounds="true"
+            android:scaleType="fitXY" />
+
+        <com.umeng.comm.ui.imagepicker.widgets.RoundImageView
+            android:id="@+id/umeng_comm_friend_picture"
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:layout_below="@id/iv_feed"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="8dp"
+            android:contentDescription="@string/umeng_comm_friends"
+            android:scaleType="centerCrop"
+            android:src="@drawable/xianghu" />
+
+        <TextView
+            android:id="@+id/umeng_comm_friend_name"
+            android:layout_width="wrap_content"
+            android:layout_height="36dp"
+            android:layout_below="@id/iv_feed"
+            android:layout_toRightOf="@id/umeng_comm_friend_picture"
+            android:ellipsize="end"
+            android:gravity="center"
+            android:singleLine="true"
+            android:text="name"
+            android:textSize="16dp" />
 
 
-    <TextView
-        android:id="@+id/tv_title"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/iv_feed"
-        android:background="?attr/selectableItemBackground"
-        android:ellipsize="end"
-        android:maxLines="4"
-        android:padding="10dp"
-        android:textAppearance="?android:attr/textAppearanceSmall"
-        tools:text="Titfffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffle" />
+        <TextView
+            android:id="@+id/umeng_comm_comment_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="36dp"
+            android:layout_alignParentRight="true"
+            android:layout_below="@id/iv_feed"
+            android:drawableLeft="@drawable/umeng_comm_comment"
+            android:drawablePadding="@dimen/umeng_comm_dimen_8px"
+            android:gravity="center"
+            android:maxLength="4"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            android:text="@string/umeng_comm_zero"
+            android:textColor="@color/umeng_comm_color_a5"
+            android:textSize="@dimen/umeng_comm_text_22px" />
+
+        <TextView
+            android:id="@+id/umeng_comm_forward_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="36dp"
+            android:layout_below="@id/iv_feed"
+            android:layout_toLeftOf="@id/umeng_comm_comment_tv"
+            android:drawableLeft="@drawable/umeng_comm_forward_bt"
+            android:drawablePadding="@dimen/umeng_comm_dimen_8px"
+            android:gravity="center"
+            android:maxLength="4"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            android:text="@string/umeng_comm_zero"
+            android:textColor="@color/umeng_comm_color_a5"
+            android:textSize="@dimen/umeng_comm_text_22px" />
+
+    </RelativeLayout>
+</android.support.v7.widget.CardView>
 
 
-</RelativeLayout>
+
 
